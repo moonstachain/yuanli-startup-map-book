@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output / temp
+_factory/
+_drafts/
+*.tmp
+*.bak
+
+# Sensitive
+.env
+secrets.json
