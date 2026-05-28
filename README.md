@@ -305,21 +305,30 @@ circle: shared
 ## 11. 仓库结构
 
 ```
-tongguan-ditu-greenbook/
+yuanli-startup-map-book/
 ├── README.md                    # 本文件
 ├── volume-1-zonggang.md         # 卷一 · 总纲（第一性原理 + 公式 + 四关全景）
 ├── volume-2-juexing.md          # 卷二 · 第一关 · 原力觉醒
-├── volume-3-duchuang.md         # 卷三 · 第二关 · 品类独创
+├── volume-3-pinlei.md           # 卷三 · 第二关 · 品类独创
 ├── volume-4-shengwei.md         # 卷四 · 第三关 · 模式升维
 ├── volume-5-suoding.md          # 卷五 · 第四关 · 壁垒锁定
 ├── volume-6-fulu.md             # 卷六 · 附录（案例 + 工具 + 诊断 + 术语）
-├── assets/                      # 图表与流程图
-│   ├── formula.svg              # 顶层公式可视化
-│   ├── four-gates.svg           # 四关全景图
-│   └── ...
+├── dashboards/                  # 可视化概念地图
+│   └── 借势合力-原力创业-通关地图-v1.0.canvas
+│                                # Obsidian JSON Canvas · 5 层 40 节点
+│                                # 总纲 → 借势 → 合力 → 四关 → 出师 · 一句话总结
 ├── LICENSE
 └── .gitignore
 ```
+
+### 概念地图使用说明
+
+`dashboards/借势合力-原力创业-通关地图-v1.0.canvas` 是本书的**可视化通关索引**，符合 [JSON Canvas](https://jsoncanvas.org) 开放规范。
+
+- **打开方式**：用 [Obsidian](https://obsidian.md) 把本仓库目录当作 vault 打开，双击 .canvas 文件
+- **结构**：5 层 band 设计（总纲 / 借势 / 合力 / 四关 / 出师 + 总结），40 节点 / 10 条脊柱边
+- **替代方案**：任何兼容 JSON Canvas 的编辑器（Foam / 自建渲染器）均可打开
+- GitHub 直接预览会显示为 raw JSON（这是规范如此）
 
 ---
 
